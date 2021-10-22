@@ -3,12 +3,17 @@
 The logs we use on Exchange servers would be:
 
 - IIS Logs (all covering the same timeframe)
+
 -- C:\inetpub\logs\LogFiles\W3SVC1 (that's for the front end part, which corresponds to theinitial client connection logs, before it's sent on the back end for server processing)
+
 -- C:\inetpub\logs\LogFiles\W3SVC2 (that's for the back end part, client requests proxied by the front end part from other servers or the same one, it's random unless we force the client to connect first to a specific server with Hosts file entries for example)
+
 -- C:\Windows\System32\LogFiles\HTTPERR (that's for the HTTP errors encountered)
 
 - Autodiscover logs
+
 -- V15\Logging\Autodiscover (back end processing of Autodiscover requests)
+
 -- V15\Logging\HttpProxy\Autodiscover (front end processing of Autodiscover requests, in other words, initial client requests for autodiscover information)
 
 # Going further with dumps
