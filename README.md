@@ -10,7 +10,7 @@ The logs we use on Exchange servers would be:
 
   - C:\Windows\System32\LogFiles\HTTPERR (that's for the HTTP errors encountered)
 
-- Autodiscover logs
+- Autodiscover logs (also covering the same timeframe as the above IIS logs)
 
   - V15\Logging\Autodiscover (back end processing of Autodiscover requests)
 
