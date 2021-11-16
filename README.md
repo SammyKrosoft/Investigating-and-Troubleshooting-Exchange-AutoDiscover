@@ -1,7 +1,8 @@
 # Investigating-and-Troubleshooting-Exchange-AutoDiscover
 
 <details>
-  <summary>Investigating-and-Troubleshooting-Exchange-AutoDiscover</summary>
+  <summary>Expand/Collapse</summary>
+  
   
 The logs we use on Exchange servers would be:
 
