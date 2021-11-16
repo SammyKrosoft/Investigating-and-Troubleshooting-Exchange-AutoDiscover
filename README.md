@@ -66,10 +66,14 @@ This will take:
 <summary> Expand/Collapse </summary>
   
 ```output
-C:\inetpub\logs\LogFiles\W3SVC1  - FE IIS
-C:\inetpub\logs\LogFiles\W3SVC2 – BE IIS
-C:\Program Files\Microsoft\Exchange Server\V15\Logging\HttpProxy\Autodiscover – FE AutoD
-C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover – BE AutoD
+## Front-End IIS:
+C:\inetpub\logs\LogFiles\W3SVC1
+## Back-End IIS:
+C:\inetpub\logs\LogFiles\W3SVC2
+## Front-End Autodiscover:
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\HttpProxy\Autodiscover
+## Back-End Autodiscover:
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 ```
 
 </details>
