@@ -16,9 +16,9 @@ The logs we use on Exchange servers would be:
 
 - Autodiscover logs (also covering the same timeframe as the above IIS logs)
 
-  - V15\Logging\Autodiscover (back end processing of Autodiscover requests)
+  - C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover (back end processing of Autodiscover requests)
 
-  - V15\Logging\HttpProxy\Autodiscover (front end processing of Autodiscover requests, in other words, initial client requests for autodiscover information)
+  - C:\Program Files\Microsoft\Exchange Server\V15\Logging\HttpProxy\Autodiscover (front end processing of Autodiscover requests, in other words, initial client requests for autodiscover information)
 
 </details>
   
