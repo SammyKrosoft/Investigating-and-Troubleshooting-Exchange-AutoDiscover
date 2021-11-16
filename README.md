@@ -103,10 +103,14 @@ Select Add - > All content -> Status codes 100-999 -> Next -> Finish
 <details>
   <summary> Expand/Collapse </summary>
   
--IIS -> Sites - > Default Website -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 50,000 -> Ok
+-IIS -> Sites - > Default Website -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 10,000 -> [Ok]
 
--IIS -> Sites - > Exchange Back End -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 50,000 -> Ok
+![image](https://user-images.githubusercontent.com/33433229/142069277-018fe643-fd4b-47b4-b094-ff87342eaf69.png)
+  
+-IIS -> Sites - > Exchange Back End -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 10,000 -> [Ok]
 
+
+  
   
   </details>
   
@@ -114,6 +118,12 @@ Select Add - > All content -> Status codes 100-999 -> Next -> Finish
 
 <details>
   <summary>Expand/Collapse</summary>
+
+- IIS -> Sites - > Default Website -> (in the actions pane) select Failed Request Tracing -> Uncheck Enabled -> [Ok]
+  
+![image](https://user-images.githubusercontent.com/33433229/142069377-ffe25929-0dd1-4851-966e-c6ff20d2b00b.png)
+  
+- IIS -> Sites - > Exchange Back End -> (in the actions pane) select Failed Request Tracing -> Check Enabled
   
 -Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
 
