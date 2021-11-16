@@ -1,3 +1,6 @@
+<details>
+  <summary>Investigating-and-Troubleshooting-Exchange-AutoDiscover</summary>
+  
 # Investigating-and-Troubleshooting-Exchange-AutoDiscover
 
 The logs we use on Exchange servers would be:
@@ -46,3 +49,5 @@ This will take:
 - when the processor will be above 80% (```-p "<processor counter>" 80```)
 
 > Running Procdump will generally slow the server down during the capture.
+
+</details>
