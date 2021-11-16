@@ -1,8 +1,8 @@
+# Investigating-and-Troubleshooting-Exchange-AutoDiscover
+
 <details>
   <summary>Investigating-and-Troubleshooting-Exchange-AutoDiscover</summary>
   
-# Investigating-and-Troubleshooting-Exchange-AutoDiscover
-
 The logs we use on Exchange servers would be:
 
 - IIS Logs (all covering the same timeframe)
