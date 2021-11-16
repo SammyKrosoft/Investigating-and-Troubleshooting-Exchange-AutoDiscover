@@ -114,7 +114,7 @@ Select Add - > All content -> Status codes 100-999 -> Next -> Finish
 ### Once we have captured the issue, stop FREB, uncheck "Enabled" check box
 
 <details>
-  <summary></summary>
+  <summary>Expand/Collapse</summary>
   
 -Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
 
