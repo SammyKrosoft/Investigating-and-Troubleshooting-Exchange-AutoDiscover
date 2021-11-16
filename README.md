@@ -140,7 +140,8 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 ![image](https://user-images.githubusercontent.com/33433229/142069377-ffe25929-0dd1-4851-966e-c6ff20d2b00b.png)
   
 > IIS -> Sites - > Exchange Back End -> (in the actions pane)
-  > select Failed Request Tracing -> uncheck Enable -> [Ok]
+>
+> select Failed Request Tracing -> uncheck Enable -> [Ok]
   
 - Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
 
