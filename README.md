@@ -20,7 +20,12 @@ The logs we use on Exchange servers would be:
 
   - V15\Logging\HttpProxy\Autodiscover (front end processing of Autodiscover requests, in other words, initial client requests for autodiscover information)
 
+</details>
+  
 # Going further with dumps
+
+<details>
+  <summary> Expand/Collapse </summary>
 
 If we want to dump the Autodiscover application pool, we need first to get the process ID (PID) of the process holding the Autodiscover tasks, then we can dump that process once identified.
 
