@@ -81,6 +81,8 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 
 ## Get FREB logs for the Front-End and Back-End autodiscover Virtual Directory
 
+  ### Set IIS autodiscover logging content and status codes
+  
 <details>
   <summary> Expand/Collapse </summary>
 
@@ -94,4 +96,28 @@ Select Add - > All content -> Status codes 100-999 -> Next -> Finish
 
 ```
 
-</details>
+  </details>
+  
+  ### Start FREB on both Front-End and Back-End IIS sites
+  
+<details>
+  <summary> Expand/Collapse </summary>
+  
+-IIS -> Sites - > Default Website -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 50,000 -> Ok
+
+-IIS -> Sites - > Exchange Back End -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 50,000 -> Ok
+![image](https://user-images.githubusercontent.com/33433229/142068433-d468eb99-93eb-499a-b096-ff65622415e6.png)
+
+  
+  </details>
+  
+### Once we have captured the issue, stop FREB, uncheck "Enabled" check box
+
+<details>
+  <summary></summary>
+  
+-Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
+
+  > NOTE: this folder is the default location for FREB logs, you can specify any other folder on a disk where you have space when configuring FREB (see a couple of sections above)
+  
+  </details>
