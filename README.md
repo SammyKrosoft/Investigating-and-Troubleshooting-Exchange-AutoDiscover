@@ -92,7 +92,7 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 
 > IIS -> Sites - > Default Website -> AutoDiscover -> Failed Request Tracing Rules
   
-![image](https://user-images.githubusercontent.com/33433229/142070954-8ef3c4fe-6393-479e-8ab6-5e66a74bcb50.png)
+![image](https://user-images.githubusercontent.com/33433229/142072783-a22481ff-4e9d-44a7-bb39-fbe65be2607b.png)
 
 > Select Add - > All content -> Status codes 100-999 -> Next -> Finish
   
