@@ -106,7 +106,6 @@ Select Add - > All content -> Status codes 100-999 -> Next -> Finish
 -IIS -> Sites - > Default Website -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 50,000 -> Ok
 
 -IIS -> Sites - > Exchange Back End -> (in the actions pane) select Failed Request Tracing -> Check Enabled + set the Max number of files to 50,000 -> Ok
-![image](https://user-images.githubusercontent.com/33433229/142068433-d468eb99-93eb-499a-b096-ff65622415e6.png)
 
   
   </details>
