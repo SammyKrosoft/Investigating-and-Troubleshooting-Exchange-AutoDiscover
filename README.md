@@ -57,3 +57,36 @@ This will take:
 > Running Procdump will generally slow the server down during the capture.
 
 </details>
+
+# Using IIS logs along with FREB (Failed Requests Events Buffering) logs
+  
+## Get IIS and Autodiscover logs
+
+<details>
+<summary> Expand/Collapse </summary>
+  
+```output
+C:\inetpub\logs\LogFiles\W3SVC1  - FE IIS
+C:\inetpub\logs\LogFiles\W3SVC2 – BE IIS
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\HttpProxy\Autodiscover – FE AutoD
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover – BE AutoD
+```
+
+</details>
+
+## Get FREB logs for the Front-End and Back-End autodiscover Virtual Directory
+
+<details>
+  <summary> Expand/Collapse </summary>
+
+```output
+
+-IIS -> Sites - > Default Website -> AutoDiscover -> Failed Request Tracing Rules
+Select Add - > All content -> Status codes 100-999 -> Next -> Finish
+
+-IIS -> Sites - > Exchange Back End -> AutoDiscover -> Failed Request Tracing Rules
+Select Add - > All content -> Status codes 100-999 -> Next -> Finish
+
+```
+
+</details>
