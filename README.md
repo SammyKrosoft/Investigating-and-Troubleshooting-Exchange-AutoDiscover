@@ -23,7 +23,7 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 
 ## Set, Start, Stop, and Get the FREB logs for the Front-End and Back-End autodiscover Virtual Directory
 
-  ### Set IIS autodiscover logging content and status codes
+  ### Set IIS FREB autodiscover logging content and status codes
   
 <details>
   <summary> Expand/Collapse </summary>
