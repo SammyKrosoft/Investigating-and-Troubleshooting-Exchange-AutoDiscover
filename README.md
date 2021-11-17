@@ -140,6 +140,9 @@ If we want to dump the Autodiscover application pool, we need first to get the p
 
 ## Get the PID we want to dump
 
+  <details>
+    <summary>Expand/Collapse</summary>
+  
 Use ```cmd.exe``` command console to run the below
 
 ```powershell
@@ -148,8 +151,13 @@ C:\Windows\System32\inetsrv\appcmd.exe list wp
 
 The output will contain all the IIS App pool PIDs, in that specific Autodiscover example we need to find the ```output MSExchangeAutodiscoverAppPool``` in the list.
 
+  </details>
+    
 ## Dump the process with ProcDump
 
+<details>
+  <summary>Expand/Collapse</summary>
+  
 Like the above section, use ```cmd.exe``` command console to run the below as well.
 
 Below we setup ProcDUmp to run when the CPU gets high (above 80%).Type the following on your cmd console:
@@ -164,5 +172,6 @@ This will take:
 - when the processor will be above 80% (```-p "<processor counter>" 80```)
 
 > Running Procdump will generally slow the server down during the capture.
-
+  </details>
+  
 </details>
