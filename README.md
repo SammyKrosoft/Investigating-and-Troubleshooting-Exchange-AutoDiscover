@@ -35,13 +35,17 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 ![image](https://user-images.githubusercontent.com/33433229/142072783-a22481ff-4e9d-44a7-bb39-fbe65be2607b.png)
 
 > Select Add - > All content -> Status codes 100-999 -> Next -> Finish
-  
+
+- Add -> All content
 ![image](https://user-images.githubusercontent.com/33433229/142071549-4c54a72a-78af-4e32-8960-8c3439aa9cce.png)
-  
+
+- -> Status codes 100-999
 ![image](https://user-images.githubusercontent.com/33433229/142072445-f80279f0-3293-4328-bc08-e39758284916.png)
 
+- [Next]
 ![image](https://user-images.githubusercontent.com/33433229/142072505-4bd70b88-4d37-4ba9-9856-7c834235ee27.png)
 
+- [Finish]
 ![image](https://user-images.githubusercontent.com/33433229/142072532-3ccfbaca-ef50-430c-aeee-983f3cac7338.png)
 
 ![image](https://user-images.githubusercontent.com/33433229/142072591-0e9c5cd5-7158-461b-a7a7-f1db15fbb7f2.png)
