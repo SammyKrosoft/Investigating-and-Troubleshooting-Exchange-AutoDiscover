@@ -21,7 +21,7 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 
 </details>
 
-## Get FREB logs for the Front-End and Back-End autodiscover Virtual Directory
+## Set, Start, Stop, and Get the FREB logs for the Front-End and Back-End autodiscover Virtual Directory
 
   ### Set IIS autodiscover logging content and status codes
   
@@ -83,7 +83,7 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 >
 > select Failed Request Tracing -> uncheck Enable -> [Ok]
   
-- Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
+### Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
 
   > NOTE: this folder is the default location for FREB logs, you can specify any other folder on a disk where you have space when configuring FREB (see a couple of sections above)
   
