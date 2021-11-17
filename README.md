@@ -60,12 +60,12 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
   <summary> Expand/Collapse </summary>
   
 > IIS -> Sites - > Default Website -> (in the actions pane) 
-> select Failed Request Tracing -> Check Enabled + set the Max number of files to 10,000 -> [Ok]
+> select Failed Request Tracing -> Check Enable + set the Max number of files to 10,000 -> [Ok]
 
 ![image](https://user-images.githubusercontent.com/33433229/142069277-018fe643-fd4b-47b4-b094-ff87342eaf69.png)
   
 > IIS -> Sites - > Exchange Back End -> (in the actions pane) 
-> select Failed Request Tracing -> Check Enabled + set the Max number of files to 10,000 -> [Ok]
+> select Failed Request Tracing -> Check Enable + set the Max number of files to 10,000 -> [Ok]
 
 </details>
   
