@@ -69,12 +69,13 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 
 </details>
   
-  ### Once we have captured the issue, stop FREB, uncheck "Enabled" check box
+  ### Once we have captured the issue, stop FREB (uncheck "Enabled" check box)
 
 <details>
   <summary>Expand/Collapse</summary>
 
-> IIS -> Sites - > Default Website -> (in the actions pane) 
+> IIS -> Sites - > Default Website -> (in the actions pane)
+>
 > select Failed Request Tracing -> uncheck Enable -> [Ok]
   
 ![image](https://user-images.githubusercontent.com/33433229/142069377-ffe25929-0dd1-4851-966e-c6ff20d2b00b.png)
@@ -82,12 +83,14 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 > IIS -> Sites - > Exchange Back End -> (in the actions pane)
 >
 > select Failed Request Tracing -> uncheck Enable -> [Ok]
+
+</details>
   
 ### Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
 
   > NOTE: this folder is the default location for FREB logs, you can specify any other folder on a disk where you have space when configuring FREB (see a couple of sections above)
   
-  </details>
+
 
 # Logs to collect to generally investigate-and-Troubleshoot-Exchange-AutoDiscover
 
