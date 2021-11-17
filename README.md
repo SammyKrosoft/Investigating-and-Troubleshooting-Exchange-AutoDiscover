@@ -86,11 +86,16 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 
 </details>
   
-### Collect both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
+### Collect FREB logs
+
+<details>
+  <summary>Expand/Collapse</summary>
+  
+both folders in ```%SystemDrive%\inetpub\logs\FailedReqLogFiles```
 
   > NOTE: this folder is the default location for FREB logs, you can specify any other folder on a disk where you have space when configuring FREB (see a couple of sections above)
   
-
+</details>
 
 # Logs to collect to generally investigate-and-Troubleshoot-Exchange-AutoDiscover
 
