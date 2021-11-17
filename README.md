@@ -111,9 +111,8 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 
 <details>
   <summary>Expand/Collapse</summary>
-  
-  
-The logs we use on Exchange servers would be:
+
+The logs we would check on Exchange servers to inivestigate on autodiscover issues would be:
 
 - IIS Logs (all covering the same timeframe)
 
