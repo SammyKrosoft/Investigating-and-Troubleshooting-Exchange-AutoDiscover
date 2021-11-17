@@ -28,7 +28,7 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 <details>
   <summary> Expand/Collapse </summary>
 
-#### On the IIS "Default Web site" object
+#### On the IIS "Default Web site/Autodiscover" virtual directory
 
 > IIS -> Sites - > Default Website -> AutoDiscover -> Failed Request Tracing Rules
   
@@ -57,7 +57,7 @@ C:\Program Files\Microsoft\Exchange Server\V15\Logging\Autodiscover
 ![image](https://user-images.githubusercontent.com/33433229/142072591-0e9c5cd5-7158-461b-a7a7-f1db15fbb7f2.png)
 
 
-#### Same thing on the IIS "Exchange Back End" object
+#### Same thing on the IIS "Exchange Back End/Autodiscover" virtual directory
   
 > IIS -> Sites - > Exchange Back End -> AutoDiscover -> Failed Request Tracing Rules
 > Select Add - > All content -> Status codes 100-999 -> Next -> Finish
